@@ -1,0 +1,114 @@
+@font-face {
+font-family: "TTNorms-Regular"; 
+src: url("../fonts/TTNorms-Regular.ttf") format("truetype"); 
+font-style: normal; 
+font-weight: normal; 
+}
+
+@font-face {
+font-family: "TTNorms-Medium"; 
+src: url("../fonts/TTNorms-Medium.ttf") format("truetype"); 
+font-style: normal; 
+font-weight: normal; 
+}
+
+@font-face {
+font-family: "TTNorms-Bold"; 
+src: url("../fonts/TTNorms-Bold.ttf") format("truetype"); 
+font-style: normal; 
+font-weight: normal; 
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: TTNorms-Regular;
+	font-weight: normal;
+}
+
+a {
+	text-decoration: none;
+}
+
+.logo {
+	margin-left: 157px;
+    margin-top: 95px;
+}
+
+.nav-wrapper {
+    position: absolute;
+    margin-top: -54px;
+    margin-left: 27%;
+}
+
+.nav-wrapper a {
+	color: #3c3c3c;
+    padding: 21px;
+}
+
+.nav-wrapper a:hover {
+	color: #25beac;
+	transition: 0.50s;
+}
+
+
+
+
+.circle__vector {
+	margin-top: -174px;
+    margin-left: 925px;
+}
+
+.circle__man {
+	width: 633px;
+    margin-top: -845px;
+    margin-left: 1155px;
+}
+
+
+
+.main-wrapper {
+	color: #25beac;
+    margin-top: -405px;
+    margin-left: 215px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.main-wrapper h2 {
+	font-family: TTNorms-Bold;
+    font-size: 38px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.main-wrapper p {
+	margin-left: 64px;
+    margin-top: 7px;
+}
+
+.main-wrapper-btn {
+	width: 271px;
+    height: 56px;
+    background-color: #25beac;
+    display: block;
+    text-align: center;
+    color: #fff;
+    margin-top: 19px;
+    margin-left: 110px;
+    border-radius: 11px 30px;
+    line-height: 57px;
+}
+
+.main-wrapper-btn:hover {
+	transition: 2s;
+	box-shadow: 10px 10px 1px #69c7bc;
+}
+
+::selection {
+    background: #25beac;
+    color: #fff;
+}
